@@ -1,0 +1,40 @@
+.awesome {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.awesome-wrap {
+    margin: 34px auto 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.line {
+    width: 64px;
+    height: 2px;
+    background-color: #e72424;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    flex: none;
+    order: 3;
+}
