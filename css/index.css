@@ -1,5 +1,9 @@
 @import url(awesome.css);
 @import url(cdn.css);
+@import url(lamp.css);
+@import url(keyboard.css);
+@import url(lightning.css);
+@import url(cards.css);
 
 * {
   margin: 0;
@@ -11,11 +15,6 @@
 html {
   font-family: "Raleway", "Open Sans", sans-serif;
 }
-/* .container { 
- max-width: 1170px;
- margin: auto;
- padding: 0 15px;
-} */
 .container {
     max-width: 1170px;
     margin: auto;
