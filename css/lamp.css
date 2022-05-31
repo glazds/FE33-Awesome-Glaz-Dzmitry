@@ -2,12 +2,14 @@
     position: 1;
     width: 350px;
     height: 225px;
+/*     align-content: center; */
 /*     left: 147px;
     top: 279px; */
 }
 .card-lamp-img {
+    line-height: 38px;
     width: 100%;
-    margin-bottom: 50px;
+/*     margin-bottom: 50px; */
 }
 .card-lamp-title {
     font-family: 'Open Sans';
