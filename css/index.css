@@ -1,9 +1,10 @@
 @import url(awesome.css);
 @import url(cdn.css);
-@import url(lamp.css);
-@import url(keyboard.css);
-@import url(lightning.css);
-@import url(cards.css);
+@import url(card-img.css);
+@import url(card.css);
+@import url(card-title.css);
+@import url(cards-wrap.css);
+@import url(card-text.css);
 
 * {
   margin: 0;
@@ -15,9 +16,15 @@
 html {
   font-family: "Raleway", "Open Sans", sans-serif;
 }
+.awesome {
+/*   width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px; */
+  padding: 80px 0;
+}
 .container {
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
-    text-align: center;
+/*     text-align: center; */
 }
