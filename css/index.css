@@ -18,16 +18,12 @@ html {
   font-family: "Raleway", "Open Sans", sans-serif;
 }
 section {
-  padding: 80px 0;
+  padding: 80px 0 0;
 }
-/* .awesome {
-  padding: 80px 0;
-} */
 .container {
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
-/*     text-align: center; */
 }
 .pricing {
   background: #F5F5F5;

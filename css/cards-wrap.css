@@ -1,5 +1,6 @@
 .cards-wrap {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 96px;
+    flex-wrap: wrap;
 }
