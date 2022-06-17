@@ -1,0 +1,115 @@
+.customers-cards-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.customers-card {
+    text-align: center;
+    width: 298px;
+    margin: 0 15px;
+}
+.customers-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    flex: none;
+    order: 3;
+    margin-bottom: 67px;
+
+    text-align: center;
+}
+.customers-card-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    padding: 9px 23px 6px 22px ;
+    
+    color: #86878B;
+    border-radius: 7px;
+    background: #E2E2E2;
+}
+.customers-card-text::after {
+    content: "";
+/*     background-color: #E2E2E2; */
+
+
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-bottom: 20px solid #E2E2E2;
+
+
+/*     line-height: 20px; */
+/*     display: block; */
+
+/*     background:#E2E2E2; */
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+/*     margin-right: 7px; */
+    vertical-align: middle;
+
+}
+.customers-identity {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+.customers-identity::before {
+    content: "";
+    background: url(../img/dog.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    position: sticky;
+
+    background-size: cover;
+    display: inline-block;
+    margin-right: 7px;
+    vertical-align: middle;
+
+}
+.customers-identity-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.customers-text-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    flex: none;
+
+    text-align: end;
+}
+.customers-text-is {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    flex: none;
+
+    text-align: end;
+}

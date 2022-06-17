@@ -1,31 +1,21 @@
-.awesome-wrap {
-    margin: 34px auto 34px;
+/* .awesome-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+} */
+.awesome-cards-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
 }
-.title {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    color: #212121;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    
-    text-align: center;
+.awesome-card {
+    margin: auto 15px auto 15px;
+    width: 350px;
 }
-.line {
-    width: 64px;
-    height: 2px;
-    background-color: #e72424;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-.text {
+.awesome-text {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -37,4 +27,86 @@
     margin-bottom: 68px;
 
     text-align: center;
+}
+/* .card-img {
+    width: 70px;
+    height: 70px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #E72424;
+    margin: 0 auto 30px;
+
+    float: inline-start;
+} */
+.awesome-card-text p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0 auto 0;
+    
+    color: #000000;
+}
+.awesome-card-title {
+    text-align: center;
+/*     margin-bottom: 21px; */
+    margin: 0 auto 21px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+/*     line-height: 27px; */
+    text-align: center;
+    
+    color: #333333;
+}
+.awesome-card-title::before {
+    content: "";
+    background: url(../img/lightning.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+    width: 70px;
+    height: 70px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #E72424;
+    margin: 0 auto 30px;
+
+    float: inline-start;
+}
+.awesome-card-title:nth-child(2)::before {
+    content: "";
+    background: url(../img/keyboard.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+    width: 70px;
+    height: 70px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #E72424;
+    margin: 0 auto 30px;
+
+    float: inline-start;
 }
